@@ -1,0 +1,43 @@
+{
+  "name": "grunt-internationalization",
+  "description": "grunt plugin for internationalization",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zf/grunt-internationalization",
+  "author": {
+    "name": "Feng Zhou",
+    "email": "zf.pascal@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zf/grunt-internationalization.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zf/grunt-internationalization/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zf/grunt-internationalization/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "i18n",
+    "internationalization"
+  ],
+  "dependencies": {
+    "internationalization": "^0.1.0"
+  }
+}
